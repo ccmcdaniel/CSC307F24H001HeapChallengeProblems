@@ -8,12 +8,26 @@ int main()
 	Heap test_heap(false);
 
 	test_heap.InsertItem(45);
+	test_heap.PrintHeap();
+	cout << "\n";
 	test_heap.InsertItem(78);
+	test_heap.PrintHeap();
+	cout << "\n";
 	test_heap.InsertItem(56);
+	test_heap.PrintHeap();
+	cout << "\n";
 	test_heap.InsertItem(22);
+	test_heap.PrintHeap();
+	cout << "\n";
 	test_heap.InsertItem(98);
+	test_heap.PrintHeap();
+	cout << "\n";
 	test_heap.InsertItem(61);
+	test_heap.PrintHeap();
+	cout << "\n";
 	test_heap.InsertItem(5);
+	test_heap.PrintHeap();
+	cout << "\n";
 
 	//98, 78, 61, 22, 45, 56, 5
 }

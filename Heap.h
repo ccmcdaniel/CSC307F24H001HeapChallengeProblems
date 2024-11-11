@@ -1,5 +1,8 @@
 #pragma once
 #include <vector>
+#include <iostream>
+
+using std::cout;
 using std::vector;
 
 class Heap
@@ -48,6 +51,14 @@ public:
 		}
 
 
+	}
+
+	void PrintHeap()
+	{
+		for (int i = 0; i < heap.size(); i++)
+		{
+			cout << heap[i] << " - ";
+		}
 	}
 
 private:
